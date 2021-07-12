@@ -56,12 +56,12 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5002111605",
-            "name": "Hybrid 200 Boxing Glove White/Black.jpeg",
+            "name": "Hybrid 200 Boxing Glove White/Black",
             "description": "Durable branded boxing gloves",
             "price": 232.99,
             "category": 2,
             "rating": 5.0,
-            "image": "Adidas Hybrid 200 Boxing Glove White/Black.jpeg"
+            "image": "Adidas Hybrid 200 Boxing Glove White:Black.jpeg"
         }
     },
     {
@@ -113,7 +113,7 @@
             "price": 1869.99,
             "category": 5,
             "rating": 4.7,
-            "image": "DPuls8-Adjustable-Dumbbells.png"
+            "image": "Puls8-Adjustable-Dumbbells.png"
         }
     },
     {
