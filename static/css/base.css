@@ -69,7 +69,7 @@ body {
 	background: white;
 	z-index: -1;
 }
-.card-img-top {
+.card-img {
     height: 250px;
     object-fit: cover;
 }
@@ -95,5 +95,16 @@ body {
 
     .header-container {
         padding-top: 164px;
+    }
+}
+
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
     }
 }
