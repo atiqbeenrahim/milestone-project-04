@@ -53,10 +53,14 @@ body {
 }
 
 .border-black {
-    border: 1px solid black !important;
+    border: 1px solid skyblue !important;
 }
 
-.bg-black {
+.bg {
+    background: skyblue !important;
+}
+
+.bg-nav {
     background: black !important;
 }
 
