@@ -1,29 +1,19 @@
-from django.contrib import admin
-from .models import Order, OrderLineItem
+from django.shortcuts import render, redirect, reverse
+from django.contrib import messages
+
+from .forms import OrderForm
 
 
-class OrderLineItemAdminInline(admin.TabularInline):
-    model = OrderLineItem
-    readonly_fields = ('lineitem_total',)
+def checkout(request):
+    bag = request.session.get('bag', {})
+    if not bag:
+        messages.error(request, "There's nothing in your bag at the moment")
+        return redirect(reverse('products'))
 
+    order_form = OrderForm()
+    template = 'checkout/checkout.html'
+    context = {
+        'order_form': order_form,
+    }
 
-class OrderAdmin(admin.ModelAdmin):
-    inlines = (OrderLineItemAdminInline,)
-
-    readonly_fields = ('order_number', 'date',
-                       'delivery_cost', 'order_total',
-                       'grand_total',)
-
-    fields = ('order_number', 'date', 'full_name',
-              'email', 'phone_number', 'country',
-              'postcode', 'town_or_city', 'street_address1',
-              'street_address2', 'county', 'delivery_cost',
-              'order_total', 'grand_total',)
-
-    list_display = ('order_number', 'date', 'full_name',
-                    'order_total', 'delivery_cost',
-                    'grand_total',)
-
-    ordering = ('-date',)
-
-admin.site.register(Order, OrderAdmin)
+    return render(request, template, context)
