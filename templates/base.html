@@ -109,6 +109,19 @@
                         </div>
                     </li>
                     <li class="list-inline-item dropdown">
+                        <a class="nav-link" href="#" id="about" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="text-center">
+                                <div><i class="fas fa-book fa-lg"></i></div>
+                                <p class="my-0">About</p>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu border-0" aria-labelledby="about">
+                                <a href="{% url 'about' %}" class="dropdown-item">About</a>
+                                <a href="{% url 'review' %}" class="dropdown-item">Reviews</a>
+                                <a href="{% url 'contact' %}" class="dropdown-item">Contact</a>
+                        </div>
+                    </li>
+                    <li class="list-inline-item dropdown">
                         <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="text-center text-white">
                                 <div><i class="fas fa-user fa-lg"></i></div>
@@ -175,12 +188,12 @@
             
             <div class="icons">
                 <h3>Email Us:</h3>
-                <a href="#" class="far fa-envelope"></a>
+                <a href="{% url 'contact' %}" class="far fa-envelope"></a>
                 <h3>Social links:</h3>
                 <a href="#" class="fab fa-facebook-f"></a>
                 <a href="#" class="fab fa-twitter"></a>
                 <a href="#" class="fab fa-instagram"></a>
-                <a href="#" class="fab fa-github"></a>
+                <a href="https://github.com/atiqbeenrahim/milestone-project-04" class="fab fa-github"></a>
             </div>
         </section>
         
