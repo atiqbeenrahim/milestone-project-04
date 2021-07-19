@@ -331,11 +331,21 @@ a.category-badge > span.badge:hover {
 }
 
 @media (max-width:767px){
-    .footer {
+    #footer {
         flex-flow: column;
     }
-    .footer .credit {
-        text-align: center;
-        padding-bottom: 3rem;
+
+    #footer .credit {
+        font-size: 1.5rem;
+    }
+
+    #footer .icons h3 {
+        font-size: 1.5rem;
+    }
+    
+    #footer .icons a {
+        font-size: 1.5rem;
+        height: 2.5rem;
+        width: 2.5rem;
     }
 }
