@@ -121,12 +121,6 @@ a.category-badge > span.badge:hover {
 #footer .credit span {
     color: #207af0;
 }
-#footer .icons h3 {
-    font-size: 1.2rem;
-    display: inline-flex;
-    text-align: left;
-    color: #207af0;
-}
 
 #footer .icons a {
     font-size: 1.5rem;
@@ -358,10 +352,6 @@ a.category-badge > span.badge:hover {
     }
 
     #footer .credit {
-        font-size: 1.5rem;
-    }
-
-    #footer .icons h3 {
         font-size: 1.5rem;
     }
     
