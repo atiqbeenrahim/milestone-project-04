@@ -9,23 +9,27 @@ def contact(request):
     """ Customer contact form view """
     contact_form = ContactForm
     if request.method == "POST":
-        form = contact_form(data=request.POST)
+        form_data = {
+            'name': request.POST.get('name', ''),
+            'email': request.POST.get('email', ''),
+            'message': request.POST.get('message', '')
+        }
+        print(f"FORM_DATA: {form_data}")
+        form = contact_form(form_data)
 
         if form.is_valid():
-            name = request.POST.get('name', '')
-            email = request.POST.get('email', '')
-            message = request.POST.get('message', '')
-
+            print("Form is valid")
+            
             send_mail(
-                name + " - " + email,
-                message,
-                settings.DEFAULT_FROM_EMAIL,
+                form_data['name'] + " - " + form_data['email'],
+                form_data['message'],
+                'fitbeast001@gmail.com',
                 [settings.DEFAULT_FROM_EMAIL],
                 fail_silently=False,
             )
         return redirect('contact')
     context = {
         'form': contact_form,
-        }
+    }
 
     return render(request, 'contact/contact.html', context)
