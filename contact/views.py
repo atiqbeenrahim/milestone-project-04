@@ -17,9 +17,9 @@ def contact(request):
             message = request.POST.get('message', '')
 
             send_mail(
-                name,
+                name + " - " + email,
                 message,
-                email,
+                settings.DEFAULT_FROM_EMAIL,
                 [settings.DEFAULT_FROM_EMAIL]
             )
         return redirect('contact')
