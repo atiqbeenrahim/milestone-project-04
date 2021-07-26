@@ -20,7 +20,8 @@ def contact(request):
                 name + " - " + email,
                 message,
                 settings.DEFAULT_FROM_EMAIL,
-                [settings.DEFAULT_FROM_EMAIL]
+                [settings.DEFAULT_FROM_EMAIL],
+                fail_silently=False,
             )
         return redirect('contact')
     context = {
