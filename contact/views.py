@@ -13,11 +13,8 @@ def contact(request):
 
         if form.is_valid():
             name = request.POST.get('name', '')
-            print(name)
             email = request.POST.get('email', '')
-            print(email)
             message = request.POST.get('message', '')
-            print(message)
 
             send_mail(
                 name,
