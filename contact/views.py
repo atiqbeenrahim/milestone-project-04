@@ -2,6 +2,7 @@ from django.http import HttpResponse
 from django.core.mail import send_mail
 from django.shortcuts import render, redirect
 from django.conf import settings
+from django.contrib import messages
 from .forms import ContactForm
 
 
@@ -27,6 +28,7 @@ def contact(request):
                 [settings.DEFAULT_FROM_EMAIL],
                 fail_silently=False,
             )
+        messages.success(request, f'We have received your queries, we will get back to you within 2 business days, Thanks!')
         return redirect('contact')
     context = {
         'form': contact_form,
