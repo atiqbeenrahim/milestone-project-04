@@ -5,8 +5,7 @@ html {
 body {
     background: url('/media/homepage_background.jpg') no-repeat center center fixed;
     background-size: cover;
-    background-position-y: 82px;
-    height: calc(100vh - 164px);
+    height: calc(100vh - 250px);
     color: #fff;
     font-family: 'Chakra Petch', sans-serif;
 }
