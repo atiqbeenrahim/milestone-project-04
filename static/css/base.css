@@ -5,9 +5,15 @@ html {
 body {
     background: url('/media/homepage_background.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 250px);
+    height: 100vh;
+    margin-bottom: 0px;
     color: #fff;
     font-family: 'Chakra Petch', sans-serif;
+}
+
+.display-4 {
+    margin-top: 80px;
+    margin-left: 16px;
 }
 
 /* from Bulma */
@@ -23,6 +29,12 @@ body {
     text-transform: uppercase;
     font-size: 2rem;
 }
+
+.content {
+    margin-top: 4rem;
+    padding-left: 2px;
+}
+
 
 .main-logo-link {
     width: fit-content;
@@ -96,6 +108,10 @@ a.category-badge > span.badge:hover {
     position: fixed;
     bottom: 10px;
     right: 10px;
+}
+
+.btt-button a {
+    background-color:rgba(201, 229, 235, 0.452);
 }
 
 .btt-link,
@@ -315,12 +331,13 @@ a.category-badge > span.badge:hover {
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
-        padding-top: 130px;
+        padding-top: 80px;
     }
 
     body {
         height: calc(100vh - 116px);
     }
+
     .display-4.logo-font.text-black {
         font-size: 2rem;
     }
