@@ -45,8 +45,7 @@
         {% for review in reviews %}
         <div class="col-12 col-md-5 row p-3 m-3 border">
             <!-- Title and rating -->
-            <div class="col-12 col-lg-4 text-center px-0">
-                {{ review.id }}
+            <div class="col-12 col-lg-4 text-center px-0">       
                 <p class="mb-0 fw-bold text-uppercase">{{ review.title }}</p>
                 <p class="rating-stars txt-small" data-value="{{ review.rating }}"></p>
                 <!-- For reviews written by the logged in user show edit and delete bittons -->
@@ -84,12 +83,11 @@
                                         <select name="rating"
                                             class="add-blog-form-field select form-control form-control" required=""
                                             id="id_rating">
-                                            <option value="" selected="">---------</option>
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
+                                            <option value="5" selected="5">5</option>
                                             <option value="4">4</option>
-                                            <option value="5">5</option>
+                                            <option value="3">3</option>
+                                            <option value="2">2</option>
+                                            <option value="1">1</option>
                                         </select>
                                     </div>
                                     <!-- Footer containing Add and Cancel buttons -->
