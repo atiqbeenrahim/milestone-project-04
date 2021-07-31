@@ -64,11 +64,11 @@ The FIT BEAST website is a real world application, designed for the selling of f
 
 ## User Stories:
 
-<img src="https://i.ibb.co/YWj1v1B/us1.png
-https://i.ibb.co/ZSWZ9cH/us2.png
-https://i.ibb.co/LhFfygM/us3.png
-https://i.ibb.co/8shLGjx/us4.png
-https://i.ibb.co/9VSPbD6/us5.png">
+<img src="https://i.ibb.co/YWj1v1B/us1.png">
+<img src="https://i.ibb.co/ZSWZ9cH/us2.png">
+<img src="https://i.ibb.co/LhFfygM/us3.png">
+<img src="https://i.ibb.co/8shLGjx/us4.png">
+<img src="https://i.ibb.co/9VSPbD6/us5.png">
 
 ## Design:
 
