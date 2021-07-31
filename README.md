@@ -64,51 +64,11 @@ The FIT BEAST website is a real world application, designed for the selling of f
 
 ## User Stories:
 
-### All Users:
-1. I would like to be able to browse the site, and view items, so that I can purchase them.
-2. I would like to be able to view individual product details, so that I can confirm whether the product is suitable
-3. I would like to search the site so that I can find specific products.
-4. I would like to be able to sort the items by price, product name, and product category, so that I can quickly identify products that I am interested in.
-5. I would like to easily be able to view my search results, so that I can quickly identify products that I am interested in.
-6. I would like to be able to contact the site owner, so that I can ask a question, or make a complaint or a compliment.
-7. I would like to be able to register for an account, so that I can view past orders, and view and update my billing details.
-8. I would like to be able to read about the company, so that I can find out more about them, and their aims.
-9. I would like to be able to read a list of frequently asked questions, so that I can find answers to any questions I may have.
-10. I would like to be able to read blog posts, so that I can stay in touch with any news that the company may have.
-11. I would like to be able to read reviews of products, so that I know whether they are good quality before I buy them.
-12. I would like to be able to make a secure payment when I place an order.
-13. I would like to receive feedback about whether or not my order was successful.
-14. I would like to receive an email confirmation once I have placed an order.
-
-### Registered Users:
-15. I would like to be able to login to the site so that I can view/update my profile.
-16. I would like to be able to easily logout of the site.
-17. I would like to be able to submit a review of a product.
-
-### Siteowner: 
-18. I would like to be able to add products to the site, so that I can upload new products as they become available. 
-19. I would link to be able to edit products already on the site, so that if product information changes, I can change the existing information.
-20. I would like to be able to delete products that are no longer necessary for the site.
-21. I would like to be able to upload blog posts, so that I can share news and events with my customers.
-22. I would like to be able to edit blog posts, so that I can add more information, or correct a typo.
-23. I would like to be able to delete a blog post if it is no longer relevent.
-24. I would like to be able to add frequently asked questions (faqs) to the site, so that people don't keep contacting me with the same questions.
-25. I would like to be able to edit faqs, in case a question or answer needs to be changed.
-26. I would like to be able to delete a faq, in case it is no longer relevent.
-27. I would like to be able to delete reviews that users have posted, so that I can remove any inappropriate or offensive content that may have been posted.
-28. I would like users to be able to contact me, so that they will receive good customer service.
-
-### First Time Visitor Goals:
-
-- I would like to browse the site and make a purchase.
-- I would like to register for an account.
-- I would like to learn about the company, be able to contact the business owner and read reviews of the product.
-
-### Returning Visitor Goals:
-
-- I would like to be able to view my profile.
-- I would like to be able to add a review for a product I have purchased.
-- I would like to be able to browse the site for new products that may have been added since my last visit.
+<img src="https://i.ibb.co/YWj1v1B/us1.png
+https://i.ibb.co/ZSWZ9cH/us2.png
+https://i.ibb.co/LhFfygM/us3.png
+https://i.ibb.co/8shLGjx/us4.png
+https://i.ibb.co/9VSPbD6/us5.png">
 
 ## Design:
 
@@ -203,8 +163,7 @@ with the black background.
 
 #### Accessible to Superusers(Admin) on the Reviews page:
 
--**Edit Review**: Allows a superuser to edit a faq.
--**Delete Review**: Allows a superuser to delete a Faq.
+-**Delete Review**: Allows a superuser to delete a review.
 
 ### Error Pages:
 
