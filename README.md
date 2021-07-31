@@ -17,8 +17,6 @@ Visit [FIT BEAST](https://milestone-project-04.herokuapp.com/)
     - [All Users](#All-Users)
     - [Registered Users](#Registered-Users)
     - [Siteowner](#Siteowner)
-    - [First Time Visitor Goals](#first-time-visitor-goals)
-    - [Returning Visitor Goals](#returning-visitor-goals)
   - [Design](#Design)
     - [Imagery](#imagery)
     - [Colours Used](#colours-used)
@@ -131,8 +129,8 @@ with the black background.
 #### Accessible to logged in regisered users via the Navbar:
 
 -**My Account**:
-    -**My Profile**: Navigate to the session user's profile page.
-    -**Logout**: Log out of the site.
+    - **My Profile**: Navigate to the session user's profile page.
+    - **Logout**: Log out of the site.
 
 #### Accessible only to Superusers(Admin) via the navbar:
 
