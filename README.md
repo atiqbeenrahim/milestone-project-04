@@ -31,16 +31,10 @@ Visit [FIT BEAST](https://milestone-project-04.herokuapp.com/)
         - [Accessible to all users on the Products page](#Accessible-to-all-users-on-the-Products-page)
         - [Accessible to Superusers(Admin) on the Products page](#Accessible-to-Superusers(Admin)-on-the-Products-page)
         - [Accessible to Superusers(Admin) on the Product Detail page](#Accessible-to-Superusers(Admin)-on-the-Product-Detail-page)
-        - [Accessible to Superusers(Admin) on the About page](#Accessible-to-Superusers(Admin)-on-the-About-page)
-        - [Accessible to Superusers(Admin) on the Blog page](#Accessible-to-Superusers(Admin)-on-the-Blog-page)
-        - [Accessible to Superusers(Admin) on the Faqs page](#Accessible-to-Superusers(Admin)-on-the-Faqs-page)
         - [Accessible to Superusers(Admin) on the Reviews page](#Accessible-to-Superusers(Admin)-on-the-Reviews-page)
         - [Error Pages](#Error-Pages)
     - [Wireframes](#wireframes)
   - [Features](#features)
-    - [Mobile Design Features](#mobile-design-features)
-    - [Tablet Design Features](#tablet-design-features)
-    - [Desktop Design Features](#desktop-design-features)
     - [Interactive Features](#Interactive-Features)
     - [Future Features](#future-features)
 - [Technologies Used](#technologies-used)
@@ -304,7 +298,33 @@ throughout the site include alt tags.
 
 ## Testing:
 
-Information about tests carried out can be found in a separate [testing.md](testing.md) file.
+ - There are dead links on the footer on Social media Icons (Facebook, Instagram and Twitter).
+ - There are no errors and warnings in the Developer console
+ - The page is fully responsive and has been tested using the Developer console.
+
+ #### Mobile:
+  - Galaxy S5
+  - Pixel 2
+  - Pixel 2 XL
+  - iPhone 4
+  - iPhone 5 SE
+  - iPhone 6, 7 and 8
+  - iPhone 6, 7 and 8 Plus (real device)
+  - iPhone X
+
+#### Tablet:
+  - iPad
+  - iPad pro
+
+#### Laptop:
+  - Macbook
+
+#### Browser:
+  - Chome
+  - Safari
+  - Firefox
+  - Opera
+  - Microsoft Edge
 
 ### Known Bugs and Fixes:
 
