@@ -242,9 +242,9 @@ In future I would like to add the following features:
 
 ### Data Modeling:
 
-- The image below was produced using the [Draw SQL app](#https://drawsql.app/)
+- The image below was produced using the [dbdiagram.io](#https://dbdiagram.io/)
 
-<img src="static/readme_images/database_diagram.jpg">
+<img src="https://i.ibb.co/bbn9SVX/db-schema.png">
 
 ## Accessibility:
 
