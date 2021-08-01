@@ -284,13 +284,6 @@ throughout the site include alt tags.
   - Microsoft Edge
 
 ### Known Bugs and Fixes:
-
-- On the edit product form, as well as the add product form, it is possible to set the 'quantity in pack' field to 0 or a negative integer. 
-This is not ideal, and poor UX, but will be fixed in due course when I have more time and knowledge.
-
-- There is a small amount of overflow on the navbar dropdown menus on the right of the screen on the smallest screens.
-This will be fixed when I have more time.
-
 - All successful messages are displayed on the same toast. It seems strange to have messages about product updates
 with shopping basket items below them. When I have more knowledge, I will decouple these messages, so that they 
 display separately.
@@ -484,7 +477,7 @@ the corresponding file, then it is in error, and should have been acknowledged.
 - **My Mentor** Akshat Garg, for help and guidance on this project.
 - **My Friends and Family** for constant support, and feedback on the content and functionality.
 - **Code Institute Slack Channel** for help answering my many questions.
-- **Code Institute Tutor Support** for helping me work out why things weren't working how they should. In particular, Michael, Shirley, Scott, and Igor for their kindness and patience. 
+- **Code Institute Tutor Support** for helping me work out why things weren't working how they should. In particular, Michael, Shirley, Scott, Jo and Igor for their kindness and patience. 
 
 
 ## Version Control: 
