@@ -172,9 +172,8 @@ with the black background.
 
 ### Wireframes:
 
-- The Big screen wireframe <a href="static/wireframes/fitbeast-big.pdf" target="_blank">here.</a>
+- The Desktop and Mobile screen wireframes <a href="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=MS4%20Wireframes.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fatiqbeenrahim%2Fmilestone-project-04%2Fmain%2Fstatic%2FMS4%2520Wireframes.drawio" target="_blank">here.</a>
 
-- The Mobile View wireframe <a href="static/wireframes/fitbeast-mobile.pdf" target="_blank">here.</a>
 
 ### Features:
 
@@ -242,7 +241,7 @@ In future I would like to add the following features:
 
 ### Data Modeling:
 
-- The image below was produced using the [dbdiagram.io](#https://dbdiagram.io/)
+- The image below was produced using the [dbdiagram.io](https://dbdiagram.io/)
 
 <img src="https://i.ibb.co/bbn9SVX/db-schema.png">
 
@@ -260,11 +259,8 @@ throughout the site include alt tags.
  - The page is fully responsive and has been tested using the Developer console.
 
  #### Mobile:
-  - Galaxy S5
   - Pixel 2
   - Pixel 2 XL
-  - iPhone 4
-  - iPhone 5 SE
   - iPhone 6, 7 and 8
   - iPhone 6, 7 and 8 Plus (real device)
   - iPhone X
