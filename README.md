@@ -191,7 +191,6 @@ the site:
 - **Add Product**: The superuser (Admin) can add products to the database.
 - **Edit Product**: The superuser (Admin) can edit products that are already in the database.
 - **Delete Product**: The superuser (Admin) can delete products that are already in the database.
-- **Edit Content**: The superuser (Admin) can edit the content on the 'About' page.
 - **Add Review**: A logged in and registered user can add a review.
 - **Delete Review**: The superuser (Admin) can delete a review.
 
@@ -199,8 +198,7 @@ the site:
 
 In future I would like to add the following features:
 
-- **Verified Purchases**: I would like to allow only customers who have bought an item to be able to leave a review for it. 
-- **Custom Products**: I would like to be able to allow customers to be able to choose the fabric for their product from a selection on the site.
+- **Verified Purchases**: I would like to allow only customers who have bought an item to be able to leave a review for it.
 - **Wishlist**: I would like users to be able to create a wishlist.
 - **Delivery Address**: I would like users to be able to specify different billing and delivery addresses.
 - **Paypal**: I would like users to be able to pay for their items using Paypal.
