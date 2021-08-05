@@ -4,7 +4,12 @@
 <div class="container text-center text-dark" id="reviews">
     <h2 class="font-heading d-inline-block p-1 mt-5 mb-3">Reviews</h2>
     <div class="mb-2 text-center">
-        <span class="rating-stars" data-value="{{ product.avg_rating }}"></span> <span>({{ reviews.count }})</span>
+        {% if product.rating %}
+            <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
+        {% else %}
+            <small class="text-muted">No Rating</small>
+        {% endif %}
+        <span>({{ reviews.count }})</span>
     </div>
     {% if user.is_authenticated %}
     <div class="text-center mt-3">
@@ -80,10 +85,10 @@
                                         <textarea name="description" cols="40" rows="10" placeholder="Description"
                                             class="add-blog-form-field textarea form-control form-control" required=""
                                             id="id_description">{{review.description}}</textarea>
-                                        <select name="rating"
-                                            class="select form-control form-control" required=""
+                                        <select name="rating" value="5"
+                                            class="select form-control form-control" required
                                             id="id_rating">
-                                            <option value="5" selected="5">5</option>
+                                            <option value="5">5</option>
                                             <option value="4">4</option>
                                             <option value="3">3</option>
                                             <option value="2">2</option>

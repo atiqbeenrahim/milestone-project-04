@@ -363,6 +363,10 @@ a.category-badge > span.badge:hover {
 }
 
 @media (max-width:767px){
+    body {
+        background-position-x: -600px;
+    }
+
     #footer {
         flex-flow: column;
     }

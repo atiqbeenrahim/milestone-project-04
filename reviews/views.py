@@ -32,7 +32,7 @@ def add_review(request, product_id):
 
         reviews = Review.objects.filter(product=product)
         avg_rating = reviews.aggregate(Avg('rating'))['rating__avg']
-        product.avg_rating = int(avg_rating)
+        product.rating = avg_rating
         product.save()
 
         messages.success(request, 'Thank you! Your review was added')
@@ -81,9 +81,9 @@ def delete_review(request, review_id):
         reviews = Review.objects.filter(product=product)
         avg_rating = reviews.aggregate(Avg('rating'))['rating__avg']
         if avg_rating:
-            product.avg_rating = int(avg_rating)
+            product.rating = avg_rating
         else:
-            product.avg_rating = 0
+            product.rating = 0
 
         product.save()
         messages.success(request, 'Your review was deleted')
