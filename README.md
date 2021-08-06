@@ -14,9 +14,6 @@ Visit [FIT BEAST](https://milestone-project-04.herokuapp.com/)
 - [Site Owner Goals](#site-owner-goals)
 - [User Experience (UX)](#user-experience-ux)
   - [User Stories](#user-stories)
-    - [All Users](#All-Users)
-    - [Registered Users](#Registered-Users)
-    - [Siteowner](#Siteowner)
   - [Design](#Design)
     - [Imagery](#imagery)
     - [Colours Used](#colours-used)
@@ -42,8 +39,6 @@ Visit [FIT BEAST](https://milestone-project-04.herokuapp.com/)
     - [Database Choice](#database-choice)
     - [Data Modeling](#Data-Modeling)
 - [Testing](#testing)
-  - [Known Bugs and Fixes](#known-bugs-and-fixes)
-  - [Defensive Programming](#defensive-programming)
 - [Deployment](#deployment)
   - [Heroku Deployment with AWS](#github-pages)
   - [Amazon Web Services](#forking-the-repository)
@@ -253,7 +248,14 @@ throughout the site include alt tags.
 
  - There are dead links on the footer on Social media Icons (Facebook, Instagram and Twitter).
  - There are no errors and warnings in the Developer console
+ - Tested using lighthouse and it passes the result
  - The page is fully responsive and has been tested using the Developer console.
+ - Tested about, bag, check out, contact, home, review and products pages in all devices. All working fine.
+ - There is still problems in python files which i had to avoid from following pep8 rules.
+ - Tested every functionality like Stripe, add/edit/delete products, email, contact, check out, and confirmation email. All working fine.
+ - Tested modal functionalities and it works fine.
+
+## Following device used for testing:
 
  #### Mobile:
   - Pixel 2
@@ -275,16 +277,6 @@ throughout the site include alt tags.
   - Firefox
   - Opera
   - Microsoft Edge
-
-### Known Bugs and Fixes:
-- All successful messages are displayed on the same toast. It seems strange to have messages about product updates
-with shopping basket items below them. When I have more knowledge, I will decouple these messages, so that they 
-display separately.
-
-- When adding or editing a product, the newly selected image is not displayed on the add_product/edit_product pages.
-This is poor UX, as even though it is displayed on the product-detail page after the form has been submitted, 
-it leaves the user wondering whether their image has been uploaded or not. I will fix this when I have the knowledge 
-to do so.
 
 ## Deployment:
 
