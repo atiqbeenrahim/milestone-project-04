@@ -1,4 +1,3 @@
-from django.http import HttpResponse
 from django.core.mail import send_mail
 from django.shortcuts import render, redirect
 from django.conf import settings
@@ -20,7 +19,6 @@ def contact(request):
 
         if form.is_valid():
             print("Form is valid")
-            
             send_mail(
                 form_data['name'] + " - " + form_data['email'],
                 form_data['message'],
@@ -28,7 +26,10 @@ def contact(request):
                 [settings.DEFAULT_FROM_EMAIL],
                 fail_silently=False,
             )
-        messages.success(request, f'We have received your queries, we will get back to you within 2 business days, Thanks!')
+        messages.success(
+            request,
+            f'We have received your queries, we will get back to you within 2 business days, Thanks!'  # noqa: E501
+            )
         return redirect('contact')
     context = {
         'form': contact_form,

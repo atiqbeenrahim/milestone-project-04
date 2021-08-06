@@ -49,7 +49,6 @@ Visit [FIT BEAST](https://milestone-project-04.herokuapp.com/)
   - [Amazon Web Services](#forking-the-repository)
   - [Making A Local Clone](#making-a-local-clone)
 - [Credits](#credits)
-- [Version Control](#version-control)
 
 # UX:
 
@@ -241,7 +240,7 @@ In future I would like to add the following features:
 
 - The image below was produced using the [dbdiagram.io](https://dbdiagram.io/)
 
-<img src="https://i.ibb.co/bbn9SVX/db-schema.png">
+<img src="https://i.ibb.co/rfL9MKM/db-schema.jpg">
 
 ## Accessibility:
 
@@ -471,9 +470,4 @@ the corresponding file, then it is in error, and should have been acknowledged.
 - **My Mentor** Akshat Garg, for help and guidance on this project.
 - **My Friends and Family** for constant support, and feedback on the content and functionality.
 - **Code Institute Slack Channel** for help answering my many questions.
-- **Code Institute Tutor Support** for helping me work out why things weren't working how they should. In particular, Michael, Shirley, Scott, Jo and Igor for their kindness and patience. 
-
-
-## Version Control: 
-
-- Throughout the development process, regular commits have been made in Gitpod, which have been pushed to the Recipes Without Github repository.
+- **Code Institute Tutor Support** for helping me work out why things weren't working how they should. In particular, Michael, Shirley, Scott, Jo and Igor for their kindness and patience.
