@@ -366,7 +366,7 @@ a.category-badge > span.badge:hover {
     body {
         background-position-x: -600px;
     }
-
+    
     #footer {
         flex-flow: column;
     }
