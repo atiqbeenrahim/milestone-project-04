@@ -27,7 +27,7 @@ def contact(request):
                 fail_silently=False,
             )
         messages.success(
-            request, f'We have received your queries, we will get back to you within 2 business days, Thanks!'  # noqa: E501
+            request, 'We have received your queries, we will get back to you within 2 business days, Thanks!'  # noqa: E501
             )
         return redirect('contact')
     context = {
