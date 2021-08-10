@@ -153,7 +153,7 @@ with the black background.
 -**Edit**: Allows a superuser to edit a product.
 -**Delete**: Allows a superuser to delete a product.
 
-#### Accessible to Superusers(Admin) on the Product Detail page:
+#### Accessible to Superusers(Admin) on the Reviews page:
 
 -**Delete**: Allows a superuser to delete a review by user.
 
