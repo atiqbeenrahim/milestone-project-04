@@ -26,6 +26,7 @@ Visit [FIT BEAST](https://milestone-project-04.herokuapp.com/)
         - [Accessible to all users on the Products page](#Accessible-to-all-users-on-the-Products-page)
         - [Accessible to Superusers(Admin) on the Products page](#Accessible-to-Superusers(Admin)-on-the-Products-page)
         - [Accessible to Superusers(Admin) on the Product Detail page](#Accessible-to-Superusers(Admin)-on-the-Product-Detail-page)
+        - [Accessible to Superusers(Admin) on the reviews page](#Accessible-to-Superusers(Admin)-on-the-reviews-page)
         - [Error Pages](#Error-Pages)
     - [Wireframes](#wireframes)
   - [Features](#features)
@@ -151,6 +152,10 @@ with the black background.
 
 -**Edit**: Allows a superuser to edit a product.
 -**Delete**: Allows a superuser to delete a product.
+
+#### Accessible to Superusers(Admin) on the Product Detail page:
+
+-**Delete**: Allows a superuser to delete a review by user.
 
 ### Error Pages:
 

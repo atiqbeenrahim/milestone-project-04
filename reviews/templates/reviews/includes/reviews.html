@@ -105,7 +105,11 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                    {% endif %}
 
+                    {% if user.is_authenticated and user.get_username == review.user.user.username or request.user.is_superuser %}
+                    <div class="col m-auto text-center mb-2">
                     <!-- Delete button, triggers modal to confirm deletion -->
                     <button class="p-1 text-danger text-decoration-none button" type="button" data-toggle="modal"
                         data-target="#deleteReview">
@@ -136,8 +140,8 @@
                         </div>
                     </div>
                 </div>
-
-                {% endif %}
+                    {% endif %}
+                
             </div>
             <!-- Description, user and added date -->
             <div class="col-12 col-lg-8 text-dark">
