@@ -5,9 +5,9 @@
     <h2 class="font-heading d-inline-block p-1 mt-5 mb-3">Reviews</h2>
     <div class="mb-2 text-center">
         {% if product.rating %}
-            <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
+        <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
         {% else %}
-            <small class="text-muted">No Rating</small>
+        <small class="text-muted">No Rating</small>
         {% endif %}
         <span>({{ reviews.count }})</span>
     </div>
@@ -50,7 +50,7 @@
         {% for review in reviews %}
         <div class="col-12 col-md-5 row p-3 m-3 border">
             <!-- Title and rating -->
-            <div class="col-12 col-lg-4 text-center px-0">       
+            <div class="col-12 col-lg-4 text-center px-0">
                 <p class="mb-0 fw-bold text-uppercase">{{ review.title }}</p>
                 <p class="rating-stars txt-small" data-value="{{ review.rating }}"></p>
                 <!-- For reviews written by the logged in user show edit and delete bittons -->
@@ -85,9 +85,8 @@
                                         <textarea name="description" cols="40" rows="10" placeholder="Description"
                                             class="add-blog-form-field textarea form-control form-control" required=""
                                             id="id_description">{{review.description}}</textarea>
-                                        <select name="rating" value="5"
-                                            class="select form-control form-control" required
-                                            id="id_rating">
+                                        <select name="rating" value="5" class="select form-control form-control"
+                                            required id="id_rating">
                                             <option value="5">5</option>
                                             <option value="4">4</option>
                                             <option value="3">3</option>
@@ -106,10 +105,10 @@
                         </div>
                     </div>
                 </div>
-                    {% endif %}
+                {% endif %}
 
-                    {% if user.is_authenticated and user.get_username == review.user.user.username or request.user.is_superuser %}
-                    <div class="col m-auto text-center mb-2">
+                {% if user.is_authenticated and user.get_username == review.user.user.username or request.user.is_superuser %}
+                <div class="col m-auto text-center mb-2">
                     <!-- Delete button, triggers modal to confirm deletion -->
                     <button class="p-1 text-danger text-decoration-none button" type="button" data-toggle="modal"
                         data-target="#deleteReview">
@@ -140,8 +139,7 @@
                         </div>
                     </div>
                 </div>
-                    {% endif %}
-                
+                {% endif %}
             </div>
             <!-- Description, user and added date -->
             <div class="col-12 col-lg-8 text-dark">
